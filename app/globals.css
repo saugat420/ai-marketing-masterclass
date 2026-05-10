@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --brand-blue: #1e5096;
+  --brand-blue-dark: #163d72;
+  --brand-blue-soft: #edf4ff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f9ff;
+  color: #101828;
+  font-family: var(--font-manrope), "Manrope", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button,
+label,
+input,
+select,
+textarea,
+span {
+  font-family: inherit;
+}
+
+::selection {
+  background: rgba(30, 80, 150, 0.18);
+  color: #0f172a;
+}
