@@ -4,7 +4,7 @@ export function MentorSection() {
   return (
     <Section title="Learn From Saugat Basnet">
       <div className="mt-8 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        <div className="overflow-hidden rounded-lg border border-[#1e5096]/15 bg-gradient-to-br from-[#edf4ff] via-white to-amber-50 p-3 shadow-xl shadow-[#1e5096]/5">
+        <div className="overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-[#0b1628] via-[#07111f] to-[#111827] p-3 shadow-xl shadow-black/20">
           <img
             src="/saugat-profile-web.jpg"
             alt="Saugat Basnet"
@@ -12,8 +12,8 @@ export function MentorSection() {
           />
         </div>
 
-        <div className="rounded-lg border border-[#1e5096]/15 bg-white p-6 shadow-xl shadow-[#1e5096]/5 sm:p-8">
-          <div className="space-y-4 text-base leading-7 text-slate-700 sm:text-lg sm:leading-8">
+        <div className="rounded-lg border border-white/10 bg-white/[0.06] p-6 shadow-xl shadow-black/20 sm:p-8">
+          <div className="space-y-4 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
             <p>
               I am Saugat Basnet aka Digital Saugat. With over 9 years of experience as a Digital
               Marketing Consultant and Coach, I have helped thousands of people in Nepal build their

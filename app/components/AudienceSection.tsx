@@ -15,11 +15,11 @@ export function AudienceSection() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {audience.map((item) => (
           <InfoCard key={item}>
-            <p className="text-base font-bold text-slate-900">{item}</p>
+            <p className="text-base font-bold text-slate-100">{item}</p>
           </InfoCard>
         ))}
       </div>
-      <div className="mt-6 rounded-lg border border-[#1e5096]/20 bg-[#1e5096] p-5 text-base font-bold text-white shadow-xl shadow-[#1e5096]/15">
+      <div className="mt-6 rounded-lg border border-yellow-300/30 bg-yellow-300 p-5 text-base font-extrabold text-slate-950 shadow-xl shadow-yellow-300/15">
         No marketing experience needed. No coding knowledge needed.
       </div>
     </Section>

@@ -10,14 +10,14 @@ const lessons = [
 
 export function LearnSection() {
   return (
-    <Section className="bg-[#edf4ff]/70" title="What You’ll Learn Inside The Masterclass">
+    <Section className="bg-white/[0.03]" title="What You’ll Learn Inside The Masterclass">
       <div className="mt-8 grid gap-4 lg:grid-cols-5">
         {lessons.map((lesson, index) => (
           <InfoCard key={lesson}>
             <span className="mb-5 grid size-9 place-items-center rounded-lg bg-amber-100 text-sm font-bold text-amber-700">
               {index + 1}
             </span>
-            <p className="text-base font-bold leading-6 text-slate-900">{lesson}</p>
+            <p className="text-base font-bold leading-6 text-slate-100">{lesson}</p>
           </InfoCard>
         ))}
       </div>
