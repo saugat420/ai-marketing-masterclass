@@ -94,7 +94,7 @@ export function RegistrationForm() {
       <div className="pointer-events-none absolute inset-y-8 left-0 -z-10 w-24 bg-[#1e5096]/25 blur-3xl sm:w-40" />
       <div className="pointer-events-none absolute inset-y-8 right-0 -z-10 w-24 bg-fuchsia-600/20 blur-3xl sm:w-40" />
       <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-white/10 bg-[radial-gradient(circle_at_85%_0%,rgba(250,204,21,0.16),transparent_30%),linear-gradient(135deg,rgba(255,255,255,0.09),rgba(255,255,255,0.035))] p-4 shadow-2xl shadow-black/30 sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
-        <div className="hidden flex-col justify-between gap-8 lg:flex">
+        <div className="flex flex-col justify-between gap-8">
           <div>
             <p className="inline-flex rounded-full border border-yellow-300/30 bg-yellow-300/10 px-3 py-1 text-xs font-bold uppercase text-yellow-200">
               Register now
@@ -106,7 +106,7 @@ export function RegistrationForm() {
               Fill this short form to join the live AI Marketing Masterclass.
             </p>
           </div>
-          <div className="grid gap-3 text-sm font-semibold text-slate-200">
+          <div className="hidden gap-3 text-sm font-semibold text-slate-200 lg:grid">
             {["Free live session", "Zoom details after registration", "Beginner friendly"].map(
               (item, index) => (
                 <div
