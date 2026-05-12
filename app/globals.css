@@ -21,6 +21,7 @@ body {
   background: #05070d;
   color: #f8fafc;
   font-family: var(--font-manrope), "Manrope", Arial, sans-serif !important;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -82,29 +83,32 @@ span {
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__fields {
   display: grid;
-  gap: 0.9rem;
+  gap: 1.15rem;
   margin: 0;
 }
 
 .flodesk-dark-wrap .fd-form-group {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__control {
   width: 100%;
   height: auto;
-  min-height: 52px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 0.5rem;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(3, 7, 18, 0.72));
-  padding: 0.875rem 1rem;
+  min-height: 48px;
+  order: 2;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 0.65rem;
+  background: #050505;
+  padding: 0.8rem 0.95rem;
   color: #ffffff;
   outline: none;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.5;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035), 0 10px 28px rgba(0, 0, 0, 0.28);
   transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
@@ -115,22 +119,21 @@ span {
 }
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__control::placeholder {
-  color: transparent;
+  color: #64748b !important;
+  opacity: 1 !important;
 }
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__label {
-  position: absolute;
-  top: 0;
-  right: 1rem;
-  left: 1rem;
-  height: 52px;
+  position: static;
+  order: 1;
+  height: auto;
   display: flex;
   align-items: center;
-  margin: 0;
-  color: #94a3b8;
+  margin: 0 0 0.45rem;
+  color: #cbd5e1;
   pointer-events: none;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   transition: opacity 0.15s ease;
 }
@@ -141,11 +144,11 @@ span {
 .flodesk-dark-wrap
   .ff-6a0056f54d292a1f518a517b__control:focus
   + .ff-6a0056f54d292a1f518a517b__label {
-  opacity: 0;
+  opacity: 1;
 }
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__footer {
-  margin-top: 1.1rem;
+  margin-top: 1.35rem;
 }
 
 .flodesk-dark-wrap .ff-6a0056f54d292a1f518a517b__button {

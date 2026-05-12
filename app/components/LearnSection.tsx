@@ -17,7 +17,7 @@ export function LearnSection() {
             <span className="mb-5 grid size-9 place-items-center rounded-lg bg-amber-100 text-sm font-bold text-amber-700">
               {index + 1}
             </span>
-            <p className="text-base font-bold leading-6 text-slate-100">{lesson}</p>
+            <p className="break-words text-base font-bold leading-6 text-slate-100">{lesson}</p>
           </InfoCard>
         ))}
       </div>

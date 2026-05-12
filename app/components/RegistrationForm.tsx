@@ -87,20 +87,45 @@ export function RegistrationForm() {
   }, []);
 
   return (
-    <section id="register" className="px-4 py-14 sm:px-6 lg:px-8">
-      <div className="mx-auto grid max-w-6xl gap-8 rounded-lg border border-white/10 bg-white/[0.06] p-5 shadow-2xl shadow-black/25 sm:p-8 lg:grid-cols-[0.85fr_1.15fr] lg:p-10">
-        <div>
-          <p className="text-sm font-bold uppercase text-yellow-300">Register now</p>
-          <h2 className="mt-3 text-3xl font-extrabold leading-tight text-white sm:text-4xl">
+    <section
+      id="register"
+      className="relative overflow-hidden px-4 py-14 sm:px-6 lg:px-8"
+    >
+      <div className="pointer-events-none absolute inset-y-8 left-0 -z-10 w-24 bg-[#1e5096]/25 blur-3xl sm:w-40" />
+      <div className="pointer-events-none absolute inset-y-8 right-0 -z-10 w-24 bg-fuchsia-600/20 blur-3xl sm:w-40" />
+      <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-white/10 bg-[radial-gradient(circle_at_85%_0%,rgba(250,204,21,0.16),transparent_30%),linear-gradient(135deg,rgba(255,255,255,0.09),rgba(255,255,255,0.035))] p-4 shadow-2xl shadow-black/30 sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
+        <div className="hidden flex-col justify-between gap-8 lg:flex">
+          <div>
+            <p className="inline-flex rounded-full border border-yellow-300/30 bg-yellow-300/10 px-3 py-1 text-xs font-bold uppercase text-yellow-200">
+              Register now
+            </p>
+            <h2 className="mt-4 text-3xl font-extrabold leading-tight text-white sm:text-4xl">
             Reserve Your Free Seat
-          </h2>
-          <p className="mt-5 text-base leading-7 text-slate-300">
-            Fill this short form to join the live AI Marketing Masterclass.
-          </p>
+            </h2>
+            <p className="mt-5 text-base leading-7 text-slate-300">
+              Fill this short form to join the live AI Marketing Masterclass.
+            </p>
+          </div>
+          <div className="grid gap-3 text-sm font-semibold text-slate-200">
+            {["Free live session", "Zoom details after registration", "Beginner friendly"].map(
+              (item, index) => (
+                <div
+                  key={item}
+                  className="flex items-center gap-3 rounded-lg border border-white/10 bg-black/20 px-4 py-3"
+                >
+                  <span className="grid size-6 shrink-0 place-items-center rounded-full bg-yellow-300 text-xs font-extrabold text-slate-950">
+                    {index + 1}
+                  </span>
+                  <span>{item}</span>
+                </div>
+              ),
+            )}
+          </div>
         </div>
 
-        <div className="relative overflow-hidden rounded-lg border border-white/10 bg-black/25 p-4 shadow-xl shadow-black/25 sm:p-5">
-          <div className="pointer-events-none absolute inset-x-8 -top-16 h-32 rounded-full bg-yellow-300/10 blur-3xl" />
+        <div className="relative overflow-hidden rounded-lg border border-white/10 bg-[#080808]/95 p-5 shadow-[0_24px_80px_rgba(0,0,0,0.42)] sm:p-6">
+          <div className="pointer-events-none absolute inset-x-6 -top-20 h-40 rounded-full bg-yellow-300/20 blur-3xl" />
+          <div className="pointer-events-none absolute -bottom-20 right-0 h-40 w-40 rounded-full bg-[#1e5096]/30 blur-3xl" />
           <div className="flodesk-dark-wrap">
             <div
               className="ff-6a0056f54d292a1f518a517b"
