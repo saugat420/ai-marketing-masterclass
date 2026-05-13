@@ -9,7 +9,7 @@ import { WhyAttendSection } from "./components/WhyAttendSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#05070d] text-white">
+    <main className="space-page min-h-screen overflow-x-hidden text-white">
       <Header />
       <HeroSection />
       <LearnSection />

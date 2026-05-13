@@ -11,7 +11,7 @@ const audience = [
 
 export function AudienceSection() {
   return (
-    <Section title="This Masterclass Is For You If…">
+    <Section title="This Masterclass Is For You If...">
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {audience.map((item) => (
           <InfoCard key={item}>

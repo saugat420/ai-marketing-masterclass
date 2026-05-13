@@ -10,7 +10,10 @@ const lessons = [
 
 export function LearnSection() {
   return (
-    <Section className="bg-white/[0.03]" title="What You’ll Learn Inside The Masterclass">
+    <Section
+      className="border-y border-cyan-200/10"
+      title="What You'll Learn Inside The Masterclass"
+    >
       <div className="mt-8 grid gap-4 lg:grid-cols-5">
         {lessons.map((lesson, index) => (
           <InfoCard key={lesson}>

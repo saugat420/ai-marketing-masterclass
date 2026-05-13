@@ -7,7 +7,7 @@ type SectionProps = {
 
 export function Section({ eyebrow, title, children, className = "" }: SectionProps) {
   return (
-    <section className={`px-4 py-14 sm:px-6 lg:px-8 ${className}`}>
+    <section className={`space-section px-4 py-14 sm:px-6 lg:px-8 ${className}`}>
       <div className="mx-auto max-w-6xl min-w-0">
         <div className="max-w-3xl">
           {eyebrow ? (
@@ -23,7 +23,7 @@ export function Section({ eyebrow, title, children, className = "" }: SectionPro
 
 export function InfoCard({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-w-0 rounded-lg border border-white/10 bg-white/[0.06] p-5 shadow-xl shadow-black/20">
+    <div className="min-w-0 rounded-lg border border-cyan-200/18 bg-slate-950/34 p-5 shadow-xl shadow-black/25 backdrop-blur sm:border-cyan-200/14 sm:bg-slate-950/45">
       {children}
     </div>
   );

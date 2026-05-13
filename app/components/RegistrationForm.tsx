@@ -89,11 +89,11 @@ export function RegistrationForm() {
   return (
     <section
       id="register"
-      className="relative overflow-hidden px-4 py-14 sm:px-6 lg:px-8"
+      className="space-section border-t border-cyan-200/10 px-4 py-14 sm:px-6 lg:px-8"
     >
-      <div className="pointer-events-none absolute inset-y-8 left-0 -z-10 w-24 bg-[#1e5096]/25 blur-3xl sm:w-40" />
-      <div className="pointer-events-none absolute inset-y-8 right-0 -z-10 w-24 bg-fuchsia-600/20 blur-3xl sm:w-40" />
-      <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-white/10 bg-[radial-gradient(circle_at_85%_0%,rgba(250,204,21,0.16),transparent_30%),linear-gradient(135deg,rgba(255,255,255,0.09),rgba(255,255,255,0.035))] p-4 shadow-2xl shadow-black/30 sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
+      <div className="pointer-events-none absolute inset-y-8 left-0 -z-10 w-24 bg-cyan-500/20 blur-3xl sm:w-40" />
+      <div className="pointer-events-none absolute inset-y-8 right-0 -z-10 w-24 bg-violet-600/20 blur-3xl sm:w-40" />
+      <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-cyan-200/18 bg-[radial-gradient(circle_at_85%_0%,rgba(250,204,21,0.14),transparent_30%),linear-gradient(135deg,rgba(14,23,52,0.46),rgba(2,6,23,0.34))] p-4 shadow-2xl shadow-black/35 backdrop-blur sm:border-cyan-200/14 sm:bg-[radial-gradient(circle_at_85%_0%,rgba(250,204,21,0.13),transparent_30%),linear-gradient(135deg,rgba(14,23,52,0.58),rgba(2,6,23,0.48))] sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
         <div className="flex flex-col justify-between gap-8">
           <div>
             <p className="inline-flex rounded-full border border-yellow-300/30 bg-yellow-300/10 px-3 py-1 text-xs font-bold uppercase text-yellow-200">
@@ -111,7 +111,7 @@ export function RegistrationForm() {
               (item, index) => (
                 <div
                   key={item}
-                  className="flex items-center gap-3 rounded-lg border border-white/10 bg-black/20 px-4 py-3"
+                  className="flex items-center gap-3 rounded-lg border border-cyan-200/14 bg-black/20 px-4 py-3"
                 >
                   <span className="grid size-6 shrink-0 place-items-center rounded-full bg-yellow-300 text-xs font-extrabold text-slate-950">
                     {index + 1}
@@ -123,7 +123,7 @@ export function RegistrationForm() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden rounded-lg border border-white/10 bg-[#080808]/95 p-5 shadow-[0_24px_80px_rgba(0,0,0,0.42)] sm:p-6">
+        <div className="relative overflow-hidden rounded-lg border border-cyan-200/18 bg-[#050812]/76 p-5 shadow-[0_24px_80px_rgba(0,0,0,0.48)] sm:border-cyan-200/14 sm:bg-[#050812]/88 sm:p-6">
           <div className="pointer-events-none absolute inset-x-6 -top-20 h-40 rounded-full bg-yellow-300/20 blur-3xl" />
           <div className="pointer-events-none absolute -bottom-20 right-0 h-40 w-40 rounded-full bg-[#1e5096]/30 blur-3xl" />
           <div className="flodesk-dark-wrap">

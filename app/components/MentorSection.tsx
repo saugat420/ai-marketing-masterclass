@@ -4,7 +4,7 @@ export function MentorSection() {
   return (
     <Section title="Learn From Saugat Basnet">
       <div className="mt-8 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-        <div className="overflow-hidden rounded-lg border border-white/10 bg-gradient-to-br from-[#0b1628] via-[#07111f] to-[#111827] p-3 shadow-xl shadow-black/20">
+        <div className="overflow-hidden rounded-lg border border-cyan-200/18 bg-gradient-to-br from-[#0b1628]/54 via-[#07111f]/48 to-[#111827]/52 p-3 shadow-xl shadow-black/25 backdrop-blur sm:border-cyan-200/14 sm:from-[#0b1628]/70 sm:via-[#07111f]/62 sm:to-[#111827]/68">
           <img
             src="/saugat-profile-web.jpg"
             alt="Saugat Basnet"
@@ -12,7 +12,7 @@ export function MentorSection() {
           />
         </div>
 
-        <div className="rounded-lg border border-white/10 bg-white/[0.06] p-6 shadow-xl shadow-black/20 sm:p-8">
+        <div className="rounded-lg border border-cyan-200/18 bg-slate-950/34 p-6 shadow-xl shadow-black/25 backdrop-blur sm:border-cyan-200/14 sm:bg-slate-950/45 sm:p-8">
           <div className="space-y-4 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
             <p>
               I am Saugat Basnet aka Digital Saugat. With over 9 years of experience as a Digital
