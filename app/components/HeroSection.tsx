@@ -21,12 +21,12 @@ export function HeroSection() {
           <div className="mt-6 flex flex-col items-center gap-2.5 sm:mt-8 sm:gap-3">
             <a
               href="#register"
-              className="w-full max-w-[19rem] rounded-full bg-[#1e5096] px-7 py-3.5 text-center text-sm font-bold text-white shadow-xl shadow-cyan-500/25 transition hover:bg-[#2568bd] focus:outline-none focus:ring-2 focus:ring-cyan-300/40 focus:ring-offset-2 focus:ring-offset-[#02030a] sm:w-auto sm:max-w-none"
+              className="primary-cta w-full max-w-[19rem] rounded-full bg-[linear-gradient(100deg,#1e5096_0%,#0ea5e9_48%,#6d5dfc_100%)] px-7 py-3.5 text-center text-sm font-bold text-white shadow-[0_22px_52px_rgba(14,165,233,0.34),0_0_32px_rgba(109,93,252,0.28)] transition focus:outline-none focus:ring-2 focus:ring-cyan-300/40 focus:ring-offset-2 focus:ring-offset-[#02030a] sm:w-auto sm:max-w-none"
             >
-              Reserve My Free Seat
+              <span>Reserve My Free Seat</span>
             </a>
-            <p className="text-sm font-bold text-[#fde047] [text-shadow:0_0_18px_rgba(250,204,21,0.65)]">
-              Only 97 seats remain...
+            <p className="rounded-full border border-white/10 bg-black/30 px-4 py-1.5 text-sm font-extrabold text-white shadow-lg shadow-black/20 backdrop-blur">
+              Hurry up! Only 97 seats left...
             </p>
           </div>
         </div>
