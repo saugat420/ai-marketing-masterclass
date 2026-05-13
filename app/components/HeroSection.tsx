@@ -4,8 +4,12 @@ export function HeroSection() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_42%,rgba(2,3,10,0.42),transparent_33%),linear-gradient(180deg,rgba(2,3,10,0.04)_0%,rgba(2,3,10,0.28)_72%,#02030a_100%)] sm:bg-[radial-gradient(circle_at_50%_42%,rgba(2,3,10,0.6),transparent_33%),linear-gradient(180deg,rgba(2,3,10,0.08)_0%,rgba(2,3,10,0.38)_72%,#02030a_100%)]" />
       <div className="mx-auto flex w-full max-w-5xl items-start justify-center overflow-hidden px-4 pb-10 pt-9 text-center sm:min-h-[calc(100svh-77px)] sm:items-center sm:px-6 sm:py-14 lg:px-8 lg:py-16">
         <div className="w-full min-w-0 max-w-full">
-          <div className="mb-4 inline-flex max-w-full rounded-full border border-yellow-200/70 bg-yellow-300 px-4 py-2 text-xs font-extrabold text-slate-950 shadow-[0_10px_36px_rgba(250,204,21,0.34)] sm:mb-6 sm:px-5 sm:py-2.5 sm:text-sm">
-            Date: 24th May at 8 PM Live on ZOOM
+          <div className="date-badge mb-4 inline-flex max-w-full items-center rounded-full bg-black/60 px-3 py-2 text-xs font-extrabold text-cyan-50 sm:mb-6 sm:px-4 sm:py-2.5 sm:text-sm">
+            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-cyan-300/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-normal text-cyan-100">
+              <span className="live-pulse-dot" />
+              LIVE
+            </span>
+            <span>24th May at 8 PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-4xl text-[2.45rem] font-extrabold leading-[1.02] tracking-normal text-white sm:text-5xl lg:text-6xl">
             <span className="block sm:inline">Learn AI</span>{" "}

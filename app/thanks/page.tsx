@@ -8,8 +8,12 @@ export default function ThanksPage() {
       <section className="space-section px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(30,80,150,0.22),transparent_34%),radial-gradient(circle_at_85%_15%,rgba(250,204,21,0.12),transparent_28%)]" />
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mx-auto mb-6 inline-flex max-w-full rounded-full border border-yellow-500 bg-yellow-300 px-4 py-2 text-[11px] font-extrabold text-slate-950 shadow-[0_10px_28px_rgba(234,179,8,0.32)] sm:px-5 sm:py-2.5 sm:text-sm">
-            Date: 24th May at 8 PM Live on ZOOM
+          <div className="date-badge mx-auto mb-6 inline-flex max-w-full items-center rounded-full bg-black/60 px-3 py-2 text-[11px] font-extrabold text-cyan-50 sm:px-4 sm:py-2.5 sm:text-sm">
+            <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-cyan-300/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-normal text-cyan-100">
+              <span className="live-pulse-dot" />
+              LIVE
+            </span>
+            <span>24th May at 8 PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-[22rem] text-[2rem] font-extrabold leading-tight sm:max-w-4xl sm:text-5xl">
             <span className="block sm:inline">You&apos;re Registered</span>{" "}
@@ -45,9 +49,9 @@ export default function ThanksPage() {
           <div className="mt-8 flex justify-center">
             <a
               href="#"
-              className="rounded-full bg-yellow-300 px-6 py-3.5 text-sm font-extrabold text-slate-950 shadow-xl shadow-yellow-300/20 transition hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-yellow-300/40 focus:ring-offset-2 focus:ring-offset-[#05070d]"
+              className="primary-cta rounded-full bg-[linear-gradient(100deg,#1e5096_0%,#0ea5e9_48%,#6d5dfc_100%)] px-6 py-3.5 text-sm font-extrabold text-white shadow-[0_22px_52px_rgba(14,165,233,0.34),0_0_32px_rgba(109,93,252,0.28)] transition focus:outline-none focus:ring-2 focus:ring-cyan-300/40 focus:ring-offset-2 focus:ring-offset-[#05070d]"
             >
-              Join WhatsApp Reminder Group
+              <span>Join WhatsApp Reminder Group</span>
             </a>
           </div>
           <div className="mt-10 text-slate-300">

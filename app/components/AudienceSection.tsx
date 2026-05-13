@@ -19,7 +19,7 @@ export function AudienceSection() {
           </InfoCard>
         ))}
       </div>
-      <div className="mt-6 rounded-lg border border-yellow-300/30 bg-yellow-300 p-5 text-base font-extrabold text-slate-950 shadow-xl shadow-yellow-300/15">
+      <div className="mt-6 rounded-lg border border-cyan-200/25 bg-[linear-gradient(100deg,rgba(14,165,233,0.92),rgba(109,93,252,0.92))] p-5 text-base font-extrabold text-white shadow-xl shadow-cyan-500/20">
         No marketing experience needed. No coding knowledge needed.
       </div>
     </Section>

@@ -17,7 +17,7 @@ export function LearnSection() {
       <div className="mt-8 grid gap-4 lg:grid-cols-5">
         {lessons.map((lesson, index) => (
           <InfoCard key={lesson}>
-            <span className="mb-5 grid size-9 place-items-center rounded-lg bg-amber-100 text-sm font-bold text-amber-700">
+            <span className="mb-5 grid size-9 place-items-center rounded-lg border border-cyan-200/25 bg-[linear-gradient(135deg,#0ea5e9,#7c3aed)] text-sm font-bold text-white shadow-lg shadow-cyan-500/20">
               {index + 1}
             </span>
             <p className="break-words text-base font-bold leading-6 text-slate-100">{lesson}</p>
