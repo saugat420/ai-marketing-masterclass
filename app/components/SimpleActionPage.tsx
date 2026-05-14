@@ -21,7 +21,7 @@ export function SimpleActionPage({
   return (
     <main className="space-page min-h-screen overflow-x-hidden text-white">
       <Header />
-      <section className="relative flex min-h-[calc(100svh-77px)] items-center overflow-hidden px-4 py-14 text-center sm:px-6 lg:px-8">
+      <section className="relative flex min-h-[calc(100svh-61px)] items-center overflow-hidden px-4 py-14 text-center sm:min-h-[calc(100svh-77px)] sm:px-6 lg:px-8">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_42%,rgba(2,3,10,0.42),transparent_33%),linear-gradient(180deg,rgba(2,3,10,0.04)_0%,rgba(2,3,10,0.28)_72%,#02030a_100%)] sm:bg-[radial-gradient(circle_at_50%_42%,rgba(2,3,10,0.6),transparent_33%),linear-gradient(180deg,rgba(2,3,10,0.08)_0%,rgba(2,3,10,0.38)_72%,#02030a_100%)]" />
         <div className="mx-auto w-full max-w-5xl">
           <div className="date-badge mx-auto inline-flex max-w-full items-center rounded-full bg-black/60 px-3 py-2 text-xs font-extrabold text-cyan-50 sm:px-4 sm:py-2.5 sm:text-sm">

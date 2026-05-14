@@ -6,7 +6,7 @@ export default function ThanksPage() {
     <main className="space-page min-h-screen overflow-x-hidden text-white">
       <Header />
       <section className="space-section px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(30,80,150,0.22),transparent_34%),radial-gradient(circle_at_85%_15%,rgba(250,204,21,0.12),transparent_28%)]" />
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(30,80,150,0.22),transparent_34%),radial-gradient(circle_at_85%_15%,rgba(124,58,237,0.16),transparent_28%)]" />
         <div className="mx-auto max-w-4xl text-center">
           <div className="date-badge mx-auto mb-6 inline-flex max-w-full items-center rounded-full bg-black/60 px-3 py-2 text-[11px] font-extrabold text-cyan-50 sm:px-4 sm:py-2.5 sm:text-sm">
             <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-cyan-300/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-normal text-cyan-100">
@@ -48,7 +48,7 @@ export default function ThanksPage() {
           </p>
           <div className="mt-8 flex justify-center">
             <a
-              href="#"
+              href="https://chat.whatsapp.com/EWj1lip9e8i7mmLs8Z0bVo"
               className="primary-cta rounded-full bg-[linear-gradient(100deg,#1e5096_0%,#0ea5e9_48%,#6d5dfc_100%)] px-6 py-3.5 text-sm font-extrabold text-white shadow-[0_22px_52px_rgba(14,165,233,0.34),0_0_32px_rgba(109,93,252,0.28)] transition focus:outline-none focus:ring-2 focus:ring-cyan-300/40 focus:ring-offset-2 focus:ring-offset-[#05070d]"
             >
               <span>Join WhatsApp Reminder Group</span>

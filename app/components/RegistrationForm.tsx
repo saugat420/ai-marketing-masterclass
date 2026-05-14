@@ -93,16 +93,16 @@ export function RegistrationForm() {
     >
       <div className="pointer-events-none absolute inset-y-8 left-0 -z-10 w-24 bg-cyan-500/20 blur-3xl sm:w-40" />
       <div className="pointer-events-none absolute inset-y-8 right-0 -z-10 w-24 bg-violet-600/20 blur-3xl sm:w-40" />
-      <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-cyan-200/18 bg-[radial-gradient(circle_at_85%_0%,rgba(34,211,238,0.14),transparent_30%),linear-gradient(135deg,rgba(14,23,52,0.46),rgba(2,6,23,0.34))] p-4 shadow-2xl shadow-black/35 backdrop-blur sm:border-cyan-200/14 sm:bg-[radial-gradient(circle_at_85%_0%,rgba(124,58,237,0.14),transparent_30%),linear-gradient(135deg,rgba(14,23,52,0.58),rgba(2,6,23,0.48))] sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
+      <div className="mx-auto grid max-w-6xl gap-8 overflow-hidden rounded-lg border border-cyan-200/25 bg-[radial-gradient(circle_at_12%_8%,rgba(34,211,238,0.16),transparent_28%),radial-gradient(circle_at_88%_0%,rgba(124,58,237,0.2),transparent_34%),linear-gradient(135deg,rgba(14,23,52,0.58),rgba(2,6,23,0.42))] p-4 shadow-[0_24px_90px_rgba(2,8,23,0.72),0_0_40px_rgba(34,211,238,0.08)] backdrop-blur sm:border-cyan-200/20 sm:p-8 lg:grid-cols-[0.82fr_1.18fr] lg:p-10">
         <div className="flex flex-col justify-between gap-8">
           <div>
-            <p className="inline-flex rounded-full border border-cyan-200/30 bg-cyan-300/10 px-3 py-1 text-xs font-bold uppercase text-cyan-100">
+            <p className="inline-flex rounded-full border border-cyan-200/45 bg-[linear-gradient(100deg,rgba(34,211,238,0.2),rgba(124,58,237,0.2))] px-3.5 py-1.5 text-xs font-extrabold uppercase text-cyan-50 shadow-[0_0_24px_rgba(34,211,238,0.18)]">
               Register now
             </p>
             <h2 className="mt-4 text-3xl font-extrabold leading-tight text-white sm:text-4xl">
             Reserve Your Free Seat
             </h2>
-            <p className="mt-5 text-base leading-7 text-slate-300">
+            <p className="mt-5 hidden text-base leading-7 text-slate-300 sm:block">
               Fill this short form to join the live AI Marketing Masterclass.
             </p>
           </div>
@@ -123,9 +123,10 @@ export function RegistrationForm() {
           </div>
         </div>
 
-        <div className="relative overflow-hidden rounded-lg border border-cyan-200/18 bg-[#050812]/76 p-5 shadow-[0_24px_80px_rgba(0,0,0,0.48)] sm:border-cyan-200/14 sm:bg-[#050812]/88 sm:p-6">
-          <div className="pointer-events-none absolute inset-x-6 -top-20 h-40 rounded-full bg-cyan-300/20 blur-3xl" />
-          <div className="pointer-events-none absolute -bottom-20 right-0 h-40 w-40 rounded-full bg-[#1e5096]/30 blur-3xl" />
+        <div className="relative overflow-hidden rounded-lg border border-cyan-200/28 bg-[radial-gradient(circle_at_15%_0%,rgba(34,211,238,0.14),transparent_32%),radial-gradient(circle_at_88%_100%,rgba(124,58,237,0.18),transparent_35%),linear-gradient(145deg,rgba(5,12,28,0.96),rgba(2,6,23,0.88))] p-5 shadow-[0_26px_90px_rgba(0,0,0,0.55),0_0_36px_rgba(14,165,233,0.12)] sm:border-cyan-200/22 sm:p-6">
+          <div className="pointer-events-none absolute left-0 top-0 h-px w-full bg-[linear-gradient(90deg,transparent,rgba(34,211,238,0.72),rgba(124,58,237,0.62),transparent)]" />
+          <div className="pointer-events-none absolute -left-16 top-8 h-40 w-40 rounded-full bg-cyan-300/18 blur-3xl" />
+          <div className="pointer-events-none absolute -bottom-20 right-0 h-44 w-44 rounded-full bg-violet-600/24 blur-3xl" />
           <div className="flodesk-dark-wrap">
             <div
               className="ff-6a0056f54d292a1f518a517b"

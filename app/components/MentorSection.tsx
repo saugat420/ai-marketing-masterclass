@@ -2,11 +2,11 @@ import { Section } from "./Section";
 
 export function MentorSection() {
   return (
-    <Section title="Learn From Saugat Basnet">
+    <Section title="Learn From Digital Saugat">
       <div className="mt-8 grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <div className="overflow-hidden rounded-lg border border-cyan-200/18 bg-gradient-to-br from-[#0b1628]/54 via-[#07111f]/48 to-[#111827]/52 p-3 shadow-xl shadow-black/25 backdrop-blur sm:border-cyan-200/14 sm:from-[#0b1628]/70 sm:via-[#07111f]/62 sm:to-[#111827]/68">
           <img
-            src="/7b9280d7-966c-4cd7-aaf6-002fc507927d%20(1).png"
+            src="/Hero%20Image.png"
             alt="Saugat Basnet"
             className="aspect-[4/5] h-full w-full rounded-lg object-cover object-center"
           />
