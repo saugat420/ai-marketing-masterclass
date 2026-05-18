@@ -1,5 +1,6 @@
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { VimeoPlayer } from "../components/VimeoPlayer";
 
 export default function ThanksPage() {
   return (
@@ -25,14 +26,7 @@ export default function ThanksPage() {
           </p>
 
           <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-lg border border-cyan-200/15 bg-slate-950/85 shadow-2xl shadow-[#1e5096]/20 backdrop-blur">
-            {/* Replace this sample Vimeo ID with your real Vimeo video ID. */}
-            <iframe
-              src="https://player.vimeo.com/video/76979871?title=0&byline=0&portrait=0"
-              title="AI Marketing Masterclass welcome video"
-              className="aspect-video w-full"
-              allow="autoplay; fullscreen; picture-in-picture"
-              allowFullScreen
-            />
+            <VimeoPlayer videoId="1193138612" title="AI Marketing Masterclass welcome video" />
           </div>
         </div>
       </section>
