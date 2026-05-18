@@ -113,6 +113,19 @@ body {
   .space-section::before {
     background: linear-gradient(180deg, rgba(2, 3, 10, 0.04), rgba(2, 3, 10, 0.12));
   }
+
+  .date-badge {
+    gap: 0.55rem;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.82rem;
+    line-height: 1.25;
+  }
+
+  .date-badge > span:first-child {
+    gap: 0.4rem;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.68rem;
+  }
 }
 
 h1,
