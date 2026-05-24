@@ -5,7 +5,7 @@ export default function EmailPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/5217787378650/WN_hvrCkS5XQCWjKryuPdGhhQ"
+      buttonHref="https://us06web.zoom.us/webinar/register/6917787389254/WN_TPnLzWF-QZuJTupdI_ysKA"
     />
   );
 }
