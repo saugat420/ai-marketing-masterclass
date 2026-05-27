@@ -9,7 +9,7 @@ export function HeroSection() {
               <span className="live-pulse-dot" />
               LIVE
             </span>
-            <span>May 27th at 8 PM on ZOOM</span>
+            <span>31st May at 8 PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-4xl text-[2.45rem] font-extrabold leading-[1.02] tracking-normal text-white sm:text-5xl lg:text-6xl">
             <span className="block sm:inline">Learn AI</span>{" "}
