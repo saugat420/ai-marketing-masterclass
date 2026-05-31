@@ -14,7 +14,7 @@ export default function ThanksPage() {
               <span className="live-pulse-dot" />
               LIVE
             </span>
-            <span>31st May at 8 PM on ZOOM</span>
+            <span>3rd June at 8 PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-[22rem] text-[2rem] font-extrabold leading-tight sm:max-w-4xl sm:text-5xl">
             <span className="block sm:inline">You&apos;re Registered</span>{" "}
@@ -42,7 +42,7 @@ export default function ThanksPage() {
           </p>
           <div className="mt-8 flex justify-center">
             <a
-              href="https://chat.whatsapp.com/EFv3QngubrmFsrzAzhqOSx"
+              href="https://chat.whatsapp.com/HB06q7Jlo4z3qeUx1IazZp"
               className="primary-cta rounded-full bg-[linear-gradient(100deg,#1e5096_0%,#0ea5e9_48%,#6d5dfc_100%)] px-6 py-3.5 text-sm font-extrabold text-white shadow-[0_22px_52px_rgba(14,165,233,0.34),0_0_32px_rgba(109,93,252,0.28)] transition focus:outline-none focus:ring-2 focus:ring-cyan-300/40 focus:ring-offset-2 focus:ring-offset-[#05070d]"
             >
               <span>Join WhatsApp Reminder Group</span>
