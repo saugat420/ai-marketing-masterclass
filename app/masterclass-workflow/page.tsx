@@ -5,7 +5,7 @@ export default function MasterclassWorkflowPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/4117808357253/WN_tcLTv1kEQe-eYCQwlcLU5w"
+      buttonHref="https://us06web.zoom.us/webinar/register/2417810942876/WN_t3dLWXWiRpWweORMg_oylA"
     />
   );
 }
