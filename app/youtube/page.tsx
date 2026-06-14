@@ -5,7 +5,7 @@ export default function YouTubePage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/6617787391798/WN_t3dLWXWiRpWweORMg_oylA"
+      buttonHref="https://us06web.zoom.us/webinar/register/3517787392336/WN_P-5fw5ThRbaQWt7Sr7i__g"
     />
   );
 }

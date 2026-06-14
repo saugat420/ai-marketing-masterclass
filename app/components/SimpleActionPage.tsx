@@ -9,7 +9,7 @@ type SimpleActionPageProps = {
   helperText?: string;
 };
 
-const dateText = "14th June at 8 PM on ZOOM";
+const dateText = "17th June at 8 PM on ZOOM";
 
 export function SimpleActionPage({
   heading,
