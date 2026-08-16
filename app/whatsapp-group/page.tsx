@@ -6,7 +6,7 @@ export default function WhatsAppGroupPage() {
       heading="Join Our WhatsApp Group Before You Leave"
       description="Click the button below to join our WhatsApp group now, so you don't miss any important updates, reminders, or session links."
       buttonLabel="Join WhatsApp Group"
-      buttonHref="https://chat.whatsapp.com/GXdwwp3kjic1LrFPWLeOfV"
+      buttonHref="https://chat.whatsapp.com/DHiIVDDd60NIwukCtFGHDF"
     />
   );
 }

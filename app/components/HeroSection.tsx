@@ -9,11 +9,11 @@ export function HeroSection() {
               <span className="live-pulse-dot" />
               LIVE
             </span>
-            <span>21st June at 8 PM on ZOOM</span>
+            <span>23rd Aug at 8PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-4xl text-[2.45rem] font-extrabold leading-[1.02] tracking-normal text-white sm:text-5xl lg:text-6xl">
-            <span className="block sm:inline">Learn AI</span>{" "}
-            <span className="block sm:inline">Marketing</span>{" "}
+            <span className="block sm:inline">Learn </span>
+            <span className="ai-marketing-highlight block sm:inline">AI Marketing</span>{" "}
             <span className="block sm:inline">From Scratch</span>{" "}
             <span className="block sm:inline">In 90 Mins</span>
           </h1>
@@ -30,7 +30,7 @@ export function HeroSection() {
               <span>Reserve My Free Seat</span>
             </a>
             <p className="rounded-full border border-white/10 bg-black/30 px-4 py-1.5 text-sm font-extrabold text-white shadow-lg shadow-black/20 backdrop-blur">
-              Hurry up! Only 97 seats left...
+              Hurry! Only 100 Seats Available.
             </p>
           </div>
         </div>

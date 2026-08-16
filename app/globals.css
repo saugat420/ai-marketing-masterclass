@@ -147,6 +147,14 @@ span {
   color: #ffffff;
 }
 
+.ai-marketing-highlight {
+  background: linear-gradient(100deg, #67e8f9 0%, #38bdf8 48%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 28px rgba(56, 189, 248, 0.2);
+}
+
 .primary-cta {
   position: relative;
   isolation: isolate;

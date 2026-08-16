@@ -9,7 +9,21 @@ type SimpleActionPageProps = {
   helperText?: string;
 };
 
-const dateText = "21st June at 8 PM on ZOOM";
+const dateText = "23rd Aug at 8PM on ZOOM";
+
+function highlightAiMarketing(heading: string) {
+  const [before, after] = heading.split("AI Marketing");
+
+  if (after === undefined) return heading;
+
+  return (
+    <>
+      {before}
+      <span className="ai-marketing-highlight">AI Marketing</span>
+      {after}
+    </>
+  );
+}
 
 export function SimpleActionPage({
   heading,
@@ -33,7 +47,7 @@ export function SimpleActionPage({
           </div>
 
           <h1 className="mx-auto mt-6 max-w-[21rem] break-words text-[2.35rem] font-extrabold leading-[1.04] tracking-normal text-white sm:max-w-4xl sm:text-5xl lg:text-6xl">
-            {heading}
+            {highlightAiMarketing(heading)}
           </h1>
 
           <p className="mx-auto mt-5 max-w-[21rem] break-words text-base font-semibold leading-7 text-slate-300 sm:max-w-3xl sm:text-lg sm:leading-8">

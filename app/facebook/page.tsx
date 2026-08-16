@@ -5,7 +5,7 @@ export default function FacebookPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/8117787392669/WN_iGXmHAvsTGy04yuV-IHqag"
+      buttonHref="https://us06web.zoom.us/webinar/register/5717868575198/WN_TZuCq-iBTUuvsldEqvAbBg"
     />
   );
 }
