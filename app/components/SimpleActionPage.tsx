@@ -9,7 +9,7 @@ type SimpleActionPageProps = {
   helperText?: string;
 };
 
-const dateText = "2nd September at 8 PM on ZOOM";
+const dateText = "6th September at 8 PM on ZOOM";
 
 function highlightAiMarketing(heading: string) {
   const [before, after] = heading.split("AI Marketing");
