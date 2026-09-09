@@ -5,7 +5,7 @@ export default function WhatsAppPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/3817868587379/WN_ZfXzeajoSNeN3IoDniEDfg"
+      buttonHref="https://us06web.zoom.us/webinar/register/6317868589159/WN__Tx9Q39ATK6Yokfsmh9ZMg"
     />
   );
 }
