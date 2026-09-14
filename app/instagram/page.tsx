@@ -5,7 +5,7 @@ export default function InstagramPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/4217868589110/WN__Tx9Q39ATK6Yokfsmh9ZMg"
+      buttonHref="https://us06web.zoom.us/webinar/register/8417868602856/WN_phhWVNeFSJWAWJbzb8zs0w"
     />
   );
 }

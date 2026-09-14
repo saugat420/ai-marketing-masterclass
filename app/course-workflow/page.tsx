@@ -5,7 +5,7 @@ export default function CourseWorkflowPage() {
   return (
     <SimpleActionPage
       {...sharedActionContent}
-      buttonHref="https://us06web.zoom.us/webinar/register/6017868589253/WN__Tx9Q39ATK6Yokfsmh9ZMg"
+      buttonHref="https://us06web.zoom.us/webinar/register/6817868603012/WN_phhWVNeFSJWAWJbzb8zs0w"
     />
   );
 }
