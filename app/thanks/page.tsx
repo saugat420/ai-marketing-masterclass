@@ -14,7 +14,7 @@ export default function ThanksPage() {
               <span className="live-pulse-dot" />
               LIVE
             </span>
-            <span>16th September at 8 PM on ZOOM</span>
+            <span>20th September at 8 PM on ZOOM</span>
           </div>
           <h1 className="mx-auto max-w-[22rem] text-[2rem] font-extrabold leading-tight sm:max-w-4xl sm:text-5xl">
             <span className="block sm:inline">You&apos;re Registered</span>{" "}
